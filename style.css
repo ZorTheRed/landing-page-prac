@@ -7,17 +7,14 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-
 }
 
 .headcon {
   background-color: #1f2937;
- 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 80px 150px 80px 150px;
+  padding: 80px 100px;
 }
 
 .left {
@@ -33,10 +30,9 @@
   background-color: #1f2937;
   justify-content: end;
   align-items: center;
-  height: 24px;
   display: flex;
   gap: 16px;
-  padding: 8px;
+  padding: 5px 10px;
 }
 
 .awesome {
@@ -59,12 +55,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #toptext {
   font-size: 18px;
   color: #e5e7eb;
+  padding-bottom: 10px;
 }
 
 a {
@@ -90,14 +87,13 @@ button:hover {
 article {
   background-color: white;
   padding: 50px 200px 50px 200px;
-
-  
 }
 
 .pics {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0 15%;
 }
 
 .pictext {
@@ -148,6 +144,8 @@ article {
 }
 
 .info {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
@@ -159,31 +157,35 @@ section {
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
-  padding: 50px 250px 50px 250px;
- 
+  padding: 25px 75px;
+}
+
+.secsplit {
+  display: flex;
 }
 
 .quote {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
-
+  padding: 20px;
 }
 
 #sig {
   margin-left: auto;
   font-size: 18px;
   font-weight: bolder;
-  padding-top: 10px;
+  padding: 20px;
 }
 
 .bubble {
   display: flex;
   justify-content: center;
   background-color: #3882f6;
-  margin: 75px 150px 75px 150px;
+  width: fit-content;
+  margin: 75px auto;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px 15px;
 }
 
 .bubtext {
@@ -191,7 +193,6 @@ section {
   flex-direction: column;
   color: #f9faf8;
   margin: 30px 80px 30px 0px;
-  padding: 5px;
 }
 
 #action {
@@ -206,12 +207,11 @@ section {
   border-style: solid;
   border-width: 1px;
   border-color: #f9faf8;
-  
 }
 
 footer {
-  margin: auto;
-  padding: 15px 0 15px 0;
+  margin-top: auto;
+  padding: 10px 0;
   background-color: #1f2937;
   color: #e5e7eb;
   text-align: center;
